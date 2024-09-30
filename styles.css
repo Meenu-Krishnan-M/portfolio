@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Playfair", serif;
+}
+.main{
+    background-image: url('https://cdn.prod.website-files.com/606a802fcaa89bc357508cad/61701b4e166c837543d8f0ce_2_How%20To%20a%20Create%20Personal%20Portfolio%20Website.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#hello{
+    margin-top: 18%;
+    margin-left: 5%;
+}
+:root{
+    --x:rgb(144, 185, 67);
+
+}
+ul:hover li a{
+   color: #007bff;
+}
+ul:hover li a:not(:hover){
+    color: rgb(10, 73, 248);
+    opacity: 0.3;
+    filter: blur(1px);
+}
+#download{
+    background: #007bff;
+    border-radius: 6px;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+#aboutDiv{
+    border: 5px solid var(--x);
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    padding-left: 2%;
+    padding-top: 2%;
+    margin-top: 10%;
+}
+#hr{
+    background-color: var(--x);
+    width: 140px;
+    height: 3px;
+}
+#about p{
+    text-align: justify;
+}
+.media-body{
+    width: 200px;
+    height: 200px;
+    /* border: 1px yellowgreen dashed; */
+    font-size: 12px;
+}
+
+.contact-section {
+    padding: 50px 0;
+    margin-top: 60px;
+}
+.contact-section .form-control{
+    border: 2px solid rgb(182, 179, 179);
+}
+
+form .form-control {
+    background-color: rgb(248, 245, 245);
+    border: none;
+    color: white;
+}
+
+form .form-control::placeholder {
+    color: #a69abd;
+}
+
+form .btn {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: greenyellow;
+}
+
+footer p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: white;
+}
+.project-section p{
+    text-align: justify;
+}
+.social-icons a {
+    color: #94c919; 
+    font-size: 24px;
+    text-decoration: none; 
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff; 
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 32px;
+    background: conic-gradient(#3498db 0% 0%, #ddd 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #111e27;
+    position: relative;
+}
+
+.circle::before {
+    content: attr(data-progress) ;
+    position: absolute;
+    font-size: 22px;
+    color: #f7f1f1;
+}
+
+/* Circle Animations */
+.circle.html {
+    background: conic-gradient(#9cc212 0% 90%, #ddd 90% 100%);
+}
+
+.circle.css {
+    background: conic-gradient(#9cc212 0% 85%, #ddd 85% 100%);
+}
+
+.circle.bootstrap {
+    background: conic-gradient(#9cc212 0% 80%, #ddd 80% 100%);
+}
+
+.circle.python {
+    background: conic-gradient(#9cc212 0% 75%, #ddd 75% 100%);
+}
+
+.circle.java {
+    background: conic-gradient(#9cc212 0% 70%, #ddd 70% 100%);
+}
+
+.circle.data-analyst {
+    background: conic-gradient(#9cc212 0% 65%, #ddd 65% 100%);
+}
+
